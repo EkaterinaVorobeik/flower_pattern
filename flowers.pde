@@ -1,4 +1,4 @@
-void flower1() { // pink flower - Kate
+void flower1() { 
   pushMatrix();
   fill(237, 41, 108);
   bezier(0, 0, 50, 250, 250, 50, 0, 0);
@@ -17,7 +17,7 @@ void flower1() { // pink flower - Kate
   popMatrix();
 }
 
-void flower2() { // blue flower - Kate
+void flower2() { 
   pushMatrix();
   for (int v = 1; v < 20; v++) {
     rotate(PI/v);
@@ -33,7 +33,7 @@ void flower2() { // blue flower - Kate
   popMatrix();
 }
 
-void flower3() { // orange flower - Kate
+void flower3() { 
   pushMatrix();
   fill(247, 148, 33);
 
@@ -71,7 +71,7 @@ void flower3() { // orange flower - Kate
   popMatrix();
 }
 
-void flower4() { // purple flower - Kate
+void flower4() { 
   pushMatrix();
   fill(170, 70, 156);
   circle(0, 120, 70);
@@ -102,7 +102,7 @@ void flower4() { // purple flower - Kate
   popMatrix();
 }
 
-void flower5() { //purple flower Lily
+void flower5() { 
   pushMatrix();
   fill(225, 150, 0);
   ellipse(0, 0, 150, 150);
@@ -135,7 +135,7 @@ void flower5() { //purple flower Lily
   popMatrix();
 }
 
-void flower6() { // blue flower Lily
+void flower6() { 
   pushMatrix();
   for (int j = 1; j< 140; j++) {
     rotate(PI/4);
@@ -166,7 +166,7 @@ void flower6() { // blue flower Lily
   popMatrix();
 }
 
-void flower7() { // blue + yellow flower Lily
+void flower7() { 
   pushMatrix();
   for (int j = 1; j< 50; j++) {
     rotate(PI/2);
